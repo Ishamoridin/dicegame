@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./OnePlayer.css" rel="stylesheet">
+</head>
+<body>
+    <div id="mainArea" class="main-area">
+        <div class="game-header"><p id="gameHeader">Let the games begin!</p></div>
+        <div id="gameArea" class="game-area">
+            <div><button id="resetButton" class="buttons">Reset</button></div>
+            <div id="playerArea" class="player-area">
+                <div id="playerArea" class="active-player"><p id="playername">Player 1</p><img id="playerDice" src="./NoDice.png"><p id="playerScore">0</p></div>
+            </div>
+        <div><button id="rollButton" class="buttons">Roll</button><button id="holdButton" class="buttons">Hold</button></div>
+        </div>
+ <div id="gameMessage"></div>
+    </div>
+    <script src="./OnePlayer.js"></script>
+</body>
+</html>
